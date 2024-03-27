@@ -1,0 +1,10 @@
+15:46:42 **** Incremental Build of configuration Debug for project sniffer_printtot ****
+make -j12 all 
+arm-none-eabi-size  sniffer_printtot.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9540	     20	  11644	  21204	   52d4	sniffer_printtot.elf
+Finished building: default.size.stdout
+ 
+
+15:46:43 Build Finished. 0 errors, 0 warnings. (took 250ms)
+

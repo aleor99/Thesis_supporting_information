@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;sniffer_printVoltage_coninvioarduino/sniffer_printVoltage.ioc&apos; to &apos;sniffer_printVoltage_coninvioarduino.ioc&apos;" description="Rename resource &apos;sniffer_printVoltage.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="sniffer_printVoltage.ioc" name="sniffer_printVoltage_coninvioarduino.ioc" stamp="1707840317851" updateReferences="true"/>
+</session>

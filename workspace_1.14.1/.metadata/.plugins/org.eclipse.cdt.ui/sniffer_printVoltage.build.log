@@ -1,0 +1,10 @@
+16:55:53 **** Build of configuration Debug for project sniffer_printVoltage ****
+make -j12 all 
+arm-none-eabi-size  sniffer_printVoltage.elf 
+   text	   data	    bss	    dec	    hex	filename
+  12196	    100	  11980	  24276	   5ed4	sniffer_printVoltage.elf
+Finished building: default.size.stdout
+ 
+
+16:55:53 Build Finished. 0 errors, 0 warnings. (took 241ms)
+

@@ -1,0 +1,10 @@
+11:35:32 **** Incremental Build of configuration Debug for project sniffer_closed_loop ****
+make -j12 all 
+arm-none-eabi-size  sniffer_closed_loop.elf 
+   text	   data	    bss	    dec	    hex	filename
+  12308	     20	  11740	  24068	   5e04	sniffer_closed_loop.elf
+Finished building: default.size.stdout
+ 
+
+11:35:32 Build Finished. 0 errors, 0 warnings. (took 309ms)
+

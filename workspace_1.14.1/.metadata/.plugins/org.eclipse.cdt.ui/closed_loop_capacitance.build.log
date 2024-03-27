@@ -1,0 +1,10 @@
+16:04:29 **** Incremental Build of configuration Debug for project closed_loop_capacitance ****
+make -j12 all 
+arm-none-eabi-size  closed_loop_capacitance.elf 
+   text	   data	    bss	    dec	    hex	filename
+  12356	     20	  11740	  24116	   5e34	closed_loop_capacitance.elf
+Finished building: default.size.stdout
+ 
+
+16:04:30 Build Finished. 0 errors, 0 warnings. (took 240ms)
+

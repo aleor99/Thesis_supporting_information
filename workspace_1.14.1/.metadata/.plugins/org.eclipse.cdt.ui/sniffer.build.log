@@ -1,0 +1,10 @@
+11:34:43 **** Build of configuration Debug for project sniffer ****
+make -j12 all 
+arm-none-eabi-size  sniffer.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9432	     20	  11644	  21096	   5268	sniffer.elf
+Finished building: default.size.stdout
+ 
+
+11:34:44 Build Finished. 0 errors, 0 warnings. (took 377ms)
+

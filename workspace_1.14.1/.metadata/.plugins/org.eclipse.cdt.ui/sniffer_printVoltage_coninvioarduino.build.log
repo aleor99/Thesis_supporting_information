@@ -1,0 +1,10 @@
+10:11:32 **** Incremental Build of configuration Debug for project sniffer_printVoltage_coninvioarduino ****
+make -j12 all 
+arm-none-eabi-size  sniffer_printVoltage_coninvioarduino.elf 
+   text	   data	    bss	    dec	    hex	filename
+  12388	     20	  11740	  24148	   5e54	sniffer_printVoltage_coninvioarduino.elf
+Finished building: default.size.stdout
+ 
+
+10:11:32 Build Finished. 0 errors, 0 warnings. (took 355ms)
+

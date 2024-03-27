@@ -1,0 +1,10 @@
+13:07:44 **** Incremental Build of configuration Debug for project prova_cose ****
+make -j12 all 
+arm-none-eabi-gcc -o "prova_cose.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\LocalAdmin\STM32CubeIDE\workspace_1.14.1\prova_cose\STM32F410RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="prova_cose.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.14.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Core/Src/stm32f4xx_it.o:C:/Users/LocalAdmin/STM32CubeIDE/workspace_1.14.1/prova_cose/Debug/../Core/Src/stm32f4xx_it.c:44: multiple definition of `counter'; ./Core/Src/main.o:C:/Users/LocalAdmin/STM32CubeIDE/workspace_1.14.1/prova_cose/Debug/../Core/Src/main.c:46: first defined here
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:64: prova_cose.elf] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+
+13:07:44 Build Failed. 2 errors, 0 warnings. (took 342ms)
+

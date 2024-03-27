@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;closed_loop_capacitance/sniffer_printVoltage_coninvioarduino.ioc&apos; to &apos;closed_loop_capacitance.ioc&apos;" description="Rename resource &apos;sniffer_printVoltage_coninvioarduino.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="sniffer_printVoltage_coninvioarduino.ioc" name="closed_loop_capacitance.ioc" stamp="1709130238413" updateReferences="true"/>
+</session>
