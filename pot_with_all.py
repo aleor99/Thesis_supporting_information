@@ -469,7 +469,7 @@ def MainWindow():
 
     root = Tk()
     root.title('PACING GUI')
-    root.iconbitmap("tudelft_fire.ico")
+    #root.iconbitmap("tudelft_fire.ico") here you should put the pathway for the icon 
     #root.iconbitmap("C:/Users/39345/Desktop/Università Milano/Polimi/Tesi/Theis_project_third/immagini_gui/tudelft_fire.ico")
     root.geometry("1200x900")
 
